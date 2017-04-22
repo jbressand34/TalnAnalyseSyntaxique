@@ -1,69 +1,70 @@
-det	le
-det	les
-det	un
-det	peu de
-det	bien du
-det	bien des
-det	du
-det	un peu de
-prnsuj	il
-prnsuj	j
-prnsuj	ce
-prnobj	le
-prnobj	les
-prnobj	l
-prnrel	qu
-prnrel	que
-adv	bien
-verbe	font
-verbe	est
-verbe	ai
-verbe	faire
-verbe	fait
-aux	ai
-aux	a
-aux	ont
-ppas	fait
-nomc	fait
-nomc	bien
-nomc	biens
-nomc	autres
-nomc	gens
-nomc	mal
-prep	entre
-sub	bien qu
-neg1	ne
-neg2	pas
+det	'le'
+det	'les'
+det	'un'
+det	'peu de'
+det	'bien du'
+det	'bien des'
+det	'du'
+det	'un peu de'
+prnsuj	'il'
+prnsuj	'j''
+prnsuj	'ce'
+prnobj	'le'
+prnobj	'les'
+prnobj	'l''
+prnrel	'qu''
+prnrel	'que'
+adv	'bien'
+verbe	'font'
+verbe	'est'
+verbe	'ai'
+verbe	'faire'
+verbe	'fait'
+aux	'ai'
+aux	'a'
+aux	'ont'
+ppas	'fait'
+nomc	'fait'
+nomc	'bien'
+nomc	'biens'
+nomc	'autres'
+nomc	'gens'
+nomc	'mal'
+prep	'à'
+sub	'bien qu''
+neg1	'ne'
+neg2	'pas'
+virg	','
 
-ph	gsuj gcompsuj
-ph	gn gv
-ph	prnsuj gv
-ph	gsubav gsuj
-gobj	det nomc
-gobj	prnsuj grel
-gobj	gn gprep
-gsuj	gn grel
-gsuj	prnsuj gv
-gv	vpas gobj
-gv	verbe gobj
-gv	verbe grel
-gv	gnegaux gadv
-gn	det nomc
-gsubav	gsub ,
-gsub	sub propsub
-propsub	prnsuj gv
-gcompsuj       , propcompsuj
-propcompsuj    prnsuj gvcompsuj
-gvcompsuj      prnobj gadv
-grel	       prnrel proprel
-proprel	       prnsuj gv
-proprel	       prnsuj verbe
-proprel	       gn gadv
-gprep	       prep gvobj
-gvobj	       verbe gobj
-gadv	       verbe adv
-gadv	       adv ppas
-gnegaux	       neg1prnobj auxneg2
-neg1prnobj     neg1 prnobj
-auxneg2	       aux neg2
-vpas	       aux ppas
+ph	gsuj	gcompsuj
+ph	gn	gv
+ph	prnsuj	gv
+ph	gsubav	gsuj
+gobj	det	nomc
+gobj	prnsuj	grel
+gobj	gn	gprep
+gsuj	gn	grel
+gsuj	prnsuj	gv
+gv	vpas	gobj
+gv	verbe	gobj
+gv	verbe	grel
+gv	gnegaux	gadv
+gn	det	nomc
+gsubav	gsub	virg
+gsub	sub	propsub
+propsub	prnsuj	gv
+gcompsuj	virg	propcompsuj
+propcompsuj	prnsuj	gvcompsuj
+gvcompsuj	prnobj	gadv
+grel	prnrel	proprel
+proprel	prnsuj	gv
+proprel	prnsuj	verbe
+proprel	gn	gadv
+gprep	prep	gvobj
+gvobj	verbe	gobj
+gadv	verbe	adv
+gadv	adv	ppas
+gnegaux	neg1prnobj	auxneg2
+neg1prnobj	neg1	prnobj
+auxneg2	aux	neg2
+vpas	aux	ppas
